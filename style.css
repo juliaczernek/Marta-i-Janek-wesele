@@ -15,7 +15,6 @@ section {
     text-align: center;
 }
 
-/* ===== HERO ===== */
 .hero {
     max-width: 100% !important;
     width: 100%;
@@ -49,12 +48,11 @@ section {
     z-index: 2;
 }
 
-/* ===== HERO ELEMENTY ===== */
 .heart-icon {
     width: 40px;
     height: 40px;
     color: #523626;
-    margin-top: 40px !important; /* Zmniejszono z 100px na 40px */
+    margin-top: 40px !important;
 }
 
 .names {
@@ -62,31 +60,31 @@ section {
     font-size: 115px;
     color: #523626;
     margin-bottom: 10px;
-    margin-top: 10px; /* Dodano mały górny margin */
+    margin-top: 10px;
 }
 
 .mini-divider {
     width: 60px;
     height: 1px;
     background: #CABCAE;
-    margin: 15px auto; /* Zmniejszono z 20px */
+    margin: 15px auto;
 }
 
 .subtitle.main {
     font-size: 26px;
-    margin-bottom: 8px; /* Dodano dla zmniejszenia odstępu */
+    margin-bottom: 8px;
 }
 
 .subtitle.small {
     font-size: 16px;
-    margin-top: 0; /* Zmieniono z -10px */
+    margin-top: 0;
 }
 
 .date {
     font-family: 'Imperial Script', cursive;
     font-size: 48px;
     color: #523626;
-    margin-top: 15px; /* Zmniejszono z 20px */
+    margin-top: 15px;
 }
 
 .rsvp-btn {
@@ -101,14 +99,13 @@ section {
     border-radius: 6px;
     font-weight: 500;
     text-decoration: none;
-    margin-top: 15px; /* Zmniejszono z 20px */
+    margin-top: 15px;
 }
 
 .rsvp-btn:hover {
     opacity: 0.9;
 }
 
-/* ===== DIVIDERS ===== */
 .divider {
     display: flex;
     align-items: center;
@@ -129,7 +126,6 @@ section {
     color: #CABCAE;
 }
 
-/* ===== PHOTOS ===== */
 .photos {
     display: flex;
     gap: 20px;
@@ -152,10 +148,9 @@ section {
 }
 
 .photo2 {
-    background-image: url("./assets/IMG_5688.JPEG");
+    background-image: url("./assets/zdjęcie1.jpg");
 }
 
-/* ===== QUOTE ===== */
 .quote {
     font-style: italic;
     font-size: 18px;
@@ -173,13 +168,12 @@ section {
     padding: 0 20px;
 }
 
-/* ===== SECTIONS ===== */
 .section-title {
     font-family: 'Imperial Script';
     font-size: 70px;
     color: #523626;
     margin-bottom: 40px;
-    margin-top: 0; /* Dodano dla usunięcia zbędnego odstępu */
+    margin-top: 0;
 }
 
 .info-section {
@@ -196,7 +190,7 @@ section {
 .cards .info-box {
     flex: 1;
     min-width: 320px;
-    max-width: 420px; /* Dwa boxy obok siebie */
+    max-width: 420px;
 }
 
 .info-section .info-box {
@@ -233,7 +227,6 @@ section {
     margin-bottom: 15px;
 }
 
-/* ===== QR ===== */
 .qr-section {
     padding: 0 20px;
 }
@@ -256,7 +249,14 @@ section {
     font-weight: 500;
 }
 
-/* ===== POPRAWINY ===== */
+.qr-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* idealne dopasowanie */
+    border-radius: 12px; /* tak jak placeholder */
+}
+
+
 .info-section .card {
     background: #fff;
     padding: 25px;

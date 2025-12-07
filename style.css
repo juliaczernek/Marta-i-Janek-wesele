@@ -66,8 +66,6 @@ section {
     width: 60px;
     height: 1px;
     background: #CABCAE;
-    /* margin: 15px auto; */
-    /* margin-top: 5px; */
     margin-bottom: 30px;
 }
 
@@ -125,6 +123,12 @@ section {
 .rsvp-info-btn:hover {
     opacity: 0.9;
 }
+
+.rsvp-info strong {
+    font-weight: 700;
+    color: #523626;
+}
+
 
 .divider {
     display: flex;
@@ -210,7 +214,7 @@ section {
     display: flex;
     justify-content: center;
     gap: 40px;
-    flex-wrap: nowrap; /* <-- wymusza jeden rząd na desktopie */
+    flex-wrap: nowrap;
 }
 
 .cards .info-box {
@@ -323,7 +327,7 @@ section {
     padding: 25px;
     border-radius: 12px;
     width: 100%;
-    max-width: 700px; /* Zmieniono z 360px na 700px */
+    max-width: 700px;
     margin: 0 auto;
     box-shadow: 0 0 8px rgba(0,0,0,0.05);
 }
@@ -335,7 +339,6 @@ section {
     margin-bottom: 10px;
 }
 
-/* ===== POPRAWINY – poprawiony układ ikon ===== */
 
 .poprawiny-card {
     background: #fff;
@@ -351,11 +354,10 @@ section {
 .poprawiny-row {
     display: flex;
     align-items: center;
-    column-gap: 18px; /* ODSTĘP MIĘDZY IKONĄ A TEKSTEM – jak w data i miejsce */
+    column-gap: 18px;
     margin-bottom: 25px;
 }
 
-/* Ikony po tym, jak Lucide zamieni <i> na <svg> */
 .poprawiny-row svg {
     width: 26px;
     height: 26px;

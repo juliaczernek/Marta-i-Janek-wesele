@@ -27,19 +27,28 @@ section {
     padding-top: 40px;
     padding-bottom: 60px;
     position: relative;
-    background-image: url("./assets/kwiatki.png");
+    background-image: url("./assets/sala.jpg");
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
 }
 
+
 .hero::before {
     content: "";
     position: absolute;
     inset: 0;
-    background: #FEF8EC;
-    opacity: 0.65;
+    background: linear-gradient(to bottom, 
+        rgba(254, 248, 236, 0.70) 0%, 
+        rgba(254, 248, 236, 0.70) 60%, 
+        rgba(254, 248, 236, 0.85) 80%, 
+        rgba(254, 248, 236, 1) 100%);
     z-index: 1;
+}
+
+.hero * {
+    position: relative;
+    z-index: 2;
 }
 
 .hero * {
@@ -338,47 +347,6 @@ section {
     color: #523626;
     margin-bottom: 10px;
 }
-
-
-.poprawiny-card {
-    background: #fff;
-    padding: 35px;
-    border-radius: 16px;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
-    max-width: 700px;
-    width: 100%;
-    margin: 30px auto 0 auto;
-    text-align: left;
-}
-
-.poprawiny-row {
-    display: flex;
-    align-items: center;
-    column-gap: 18px;
-    margin-bottom: 25px;
-}
-
-.poprawiny-row svg {
-    width: 26px;
-    height: 26px;
-    color: #523626;
-    flex-shrink: 0;
-}
-
-.poprawiny-text {
-    font-size: 18px;
-    line-height: 1.5;
-}
-
-.poprawiny-text .line1 {
-    font-weight: 600;
-}
-
-.poprawiny-text .line2 {
-    opacity: 0.9;
-}
-
-
 
 
 
